@@ -7,7 +7,6 @@ import airportPickup from "@/assets/service-galleries/seamless-journeys/pickupV1
 import jettyArrival from "@/assets/service-galleries/seamless-journeys/jettyV1.png";
 import speedboatResort from "@/assets/service-galleries/seamless-journeys/kapalaiV1.png";
 
-import romanticDinner from "@/assets/service-galleries/tailored-experiences/romanticDinnerV2.png";
 import birthdayCelebration from "@/assets/service-galleries/tailored-experiences/fellowship.png";
 import honeyMoon from "@/assets/service-galleries/tailored-experiences/honeyMoonV1.png";
 
@@ -34,7 +33,6 @@ const ServiceGallery = ({ service, isOpen, onClose }: ServiceGalleryProps) => {
       { src: speedboatResort, alt: serviceGalleriesData?.["seamless-journeys"]?.[2]?.alt ?? "Speedboat transfer to Sipadan Kapalai Resort", title: serviceGalleriesData?.["seamless-journeys"]?.[2]?.title ?? "Kapalai Arrival" },
     ],
     "tailored-experiences": [
-      { src: romanticDinner, alt: serviceGalleriesData?.["tailored-experiences"]?.[0]?.alt ?? "Romantic candlelit dinner on the beach at sunset", title: serviceGalleriesData?.["tailored-experiences"]?.[0]?.title ?? "Romantic Dinner" },
       { src: birthdayCelebration, alt: serviceGalleriesData?.["tailored-experiences"]?.[1]?.alt ?? "Special arrangement for the perfect meals with your love ones", title: serviceGalleriesData?.["tailored-experiences"]?.[1]?.title ?? "Special Arrangement" },
       { src: honeyMoon, alt: serviceGalleriesData?.["tailored-experiences"]?.[2]?.alt ?? "A honeymoon bed decorated with towel swans and flowers", title: serviceGalleriesData?.["tailored-experiences"]?.[2]?.title ?? "Honeymoon" },
     ],
